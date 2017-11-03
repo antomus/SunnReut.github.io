@@ -9,7 +9,7 @@
 
 .menu
 {
-  width: 60% ; 
+  width: 63% ; 
   padding: 10px 10px 15px 10px;
   margin: auto;
   color: white;
@@ -54,8 +54,8 @@
   background-color: hsl(39, 70%, 50%);
   color: white;
   position: absolute;
-  padding: 10px 40px  10px 40px;
-  width: 18% ;   
+  padding: 10px 35px  10px 35px;
+  width: 19% ;   
   margin: auto;
   left:220px;
 }

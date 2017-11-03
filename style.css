@@ -1,77 +1,82 @@
 .logo
 
 {
-  padding: 20px 150px 5px 150px;
+   width: 35% ; 
+  padding: 10px;
+  margin: auto;
   background-color: rgb(30, 30, 30);
 }
 
 .menu
 {
- padding: 0px 15px  0px 15px;
+  width: 60% ; 
+  padding: 10px 10px 15px 10px;
+  margin: auto;
+  color: white;
   background-color: rgb(30, 30, 30);
   font-size: 13px;  
 }
 
-div
+.background
 {
    padding: 10px 350px 20px 350px;
    background-color: rgb(30, 30, 30);
-}
-h1
-{
-  padding: 0px 40px  0px 40px;
-}
+ }
 
-h2
+.start
 {
-  padding: 0px 50px 0px 50px;
-  color: white;
-}
-
-h3
-{
-   padding: 0px 20px  0px 20px;
+  position:relative;
+  width: 95% ; 
+  padding: 40px 15px 40px 15px;
+  margin: auto;  
   background-color: hsl(39, 70%, 50%);
 }
+.data
 
-#title_id
 {
+  position:relative;
+  width: 93% ; 
+  padding: 30px 21px 500px 21px;
+  margin: auto;   
+  background-color: white;   
+}
 
-  padding: 0px 162px  0px 162px;
+.title
+{
+  width: 90% ; 
+  padding: 10px 10px 15px 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.button
+{
+  background-color: hsl(39, 70%, 50%);
   color: white;
-  font-size: 50px;
-  font-family: "Georgia", ;
+  position: absolute;
+  padding: 10px 40px  10px 40px;
+  width: 18% ;   
+  margin: auto;
+  left:220px;
+}
+.end
+{
+  position:relative;
+  width: 95% ; 
+  padding: 30px 15px 80px 15px;
+  margin: auto;
+  background-color: hsl(39, 70%, 50%);
+
 }
 
-#title2_id
+.follow
 {
-  padding: 0px 185px  0px 185px;
-  font-family: "Arial", "Helvetica", sans-serif;
-}
-h4
-{
-  padding: 0px 70px  0px 70px;
-  background-color: white;
-  position: relative;
-  top:-22px;
-}
+  position:absolute;
+  width: 50% ; 
+  padding: 0px 225px 5px 225px;
+  margin: auto; 
 
-#title3_id
-{
-  font-family: "Times New Roman";
-  font-size: 20px;
 }
-
-h5
-{
-   background-color: hsl(39, 70%, 50%);
-   color: white;
-   position: absolute;
-   padding: 10px 40px  10px 40px;
-   top: 380px;
-   left: 569px;
-
- }
 
 td, 
 th
@@ -82,10 +87,10 @@ th
 #tab_line
 {
   
-  position: relative;
-  top: -340px;
-  left: -8px;  
-  border-size: 5;
+  position: absolute;
+  top: 375px;
+  left: 15px;  
+  border-size: 7;
   width: 90%;
   border-color: #F5F5F5;
 }
@@ -93,13 +98,11 @@ th
 #sum_line
 {
   border-color: hsl(39, 70%, 50%);
-  position: relative;
-  top: -275px;
-  left: -8px;  
+  position: absolute;
+  top: 455px;
+  left: 15px;  
   width: 90%;  
 }
-
-
 
   .title_t
 {
@@ -118,27 +121,20 @@ th
 .table1
 {
   position: absolute;
-  top: 650px;
-  left: 380px;
-  
+  width: 110% ; 
+  top: 350px;
+  left: 20px;  
 }
 
-h6
+.contact
 {
-    padding: 0px 20px  0px 20px;
-   background-color: hsl(39, 70%, 50%);  
-   position: relative;   
-   top: -180px;
-   left:0px;
-
-}
-
-#end_id
-{
-  padding: 0px 10px  0px 10px;
-  color: black;
-  font-size: 25px;
-  font-family: "Vijaya";
+  color: rgb(80, 80, 90);
+  position:relative;
+  top:0px;
+  width: 90% ; 
+  padding: 10px 10px 15px 10px;
+  margin: auto;
+  text-align: center;
 }
 
 a

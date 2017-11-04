@@ -1,36 +1,46 @@
+.background
+{   
+   padding: 10px 350px 20px 350px;
+   background-color: #1e1e1e;
+
+ }
+
 .logo
 
 {
    width: 35% ; 
   padding: 10px;
   margin: auto;
-  background-color: rgb(30, 30, 30);
+  background-color: #1e1e1e;
 }
 
 .menu
 {
-  width: 63% ; 
+  width: 70% ; 
   padding: 10px 10px 15px 10px;
   margin: auto;
   color: white;
-  background-color: rgb(30, 30, 30);
-  font-size: 13px;  
+  background-color:#1e1e1e;
+  font-size: 12px; 
+  font-family:"Arial", sans-serif; 
+   text-align: center;
 }
-
-.background
-{
-   padding: 10px 350px 20px 350px;
-   background-color: rgb(30, 30, 30);
- }
 
 .start
 {
   position:relative;
   width: 95% ; 
-  padding: 40px 15px 40px 15px;
-  margin: auto;  
-  background-color: hsl(39, 70%, 50%);
+  padding: 30px 15px 40px 15px;
+  margin: 0 auto;  
+  background-color: #d2973b;
 }
+
+.start_text
+{
+ position: relative;  
+  text-align: center;  
+}
+
 .data
 
 {
@@ -38,8 +48,9 @@
   width: 93% ; 
   padding: 30px 21px 500px 21px;
   margin: auto;   
-  background-color: white;   
+  background-color: #ffffff;   
 }
+
 
 .title
 {
@@ -51,13 +62,13 @@
 
 .button
 {
-  background-color: hsl(39, 70%, 50%);
-  color: white;
-  position: absolute;
+  background-color: #d2973b;
+  color: white;  
   padding: 10px 35px  10px 35px;
-  width: 19% ;   
+  width: 20% ;   
   margin: auto;
   left:220px;
+  text-align: center;
 }
 .end
 {
@@ -65,16 +76,24 @@
   width: 95% ; 
   padding: 30px 15px 80px 15px;
   margin: auto;
-  background-color: hsl(39, 70%, 50%);
+  background-color: #d2973b;
 
+}
+
+.follow_text
+{
+  
+  position: relative;
+  text-align: center;
 }
 
 .follow
 {
-  position:absolute;
-  width: 50% ; 
-  padding: 0px 225px 5px 225px;
-  margin: auto; 
+  position:relative; 
+  width: 30%;
+  margin-right: 36%;
+  margin-left: 36%;     
+  top:10px;
 
 }
 
@@ -83,7 +102,11 @@ th
   {
    padding: 7px;
    padding-right: 130px;
+   text-align: left;
+
   }
+
+
 #tab_line
 {
   
@@ -97,17 +120,16 @@ th
  
 #sum_line
 {
-  border-color: hsl(39, 70%, 50%);
+  border-color: #d2973b;
   position: absolute;
   top: 455px;
   left: 15px;  
   width: 90%;  
 }
-
   .title_t
 {
    background-color: #DCDCDC  ; 
-   color: hsl(39, 70%, 50%);
+   color: #d2973b;
    position: absolute;
   
 }
@@ -140,5 +162,6 @@ th
 a
 {
   text-decoration:none;
-  color: white;
+  color: #ffffff;
 }
+

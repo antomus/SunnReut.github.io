@@ -41,8 +41,9 @@
 
 .start_text
 {
- position: relative;  
-  text-align: center;  
+ /*position: relative;  */
+  text-align: center; 
+
 }
 
 .data
@@ -50,7 +51,7 @@
 {
   position:relative;
   width: 93% ; 
-  padding: 30px 21px 500px 21px;
+  padding: 30px 21px 200px 21px;
   margin: auto;   
   background-color: #ffffff;   
 }
@@ -87,22 +88,24 @@
 .follow_text
 {
   
-  position: relative;
+  /*position: relative;*/
   text-align: center;
+  font-size: 20px; 
+ font-family:"Georgia", serif;
 }
 
 .follow
 {
   position:relative; 
   width: 30%;
-  margin-right: 36%;
-  margin-left: 36%;     
+  margin-right: 35%;
+  margin-left: 35%;     
   top:10px;
+  text-align: center;
 
 }
 
-td, 
-th
+.table11
   {
    padding: 7px;
    padding-right: 130px;
@@ -130,7 +133,7 @@ th
   left: 15px;  
   width: 90%;  
 }
-  .title_t
+ /* .title_t
 {
    background-color: #DCDCDC  ; 
    color: #d2973b;
@@ -142,6 +145,30 @@ th
   background-color: #F5F5F5;
   position: absolute;
   
+}*/
+
+.table_address
+{
+  position: relative;
+  width: 45% ; 
+  top: 45px;
+   
+}
+ .table_order
+ {
+  position: relative;
+  width: 45% ; 
+  top: -93px;
+  left:300px;
+ }
+
+.table_shipped
+{
+position: relative;
+  width: 45% ; 
+  top: -82px;
+  left:300px;
+  text-align: left;
 }
 
 .table1
@@ -149,7 +176,9 @@ th
   position: absolute;
   width: 110% ; 
   top: 350px;
-  left: 20px;  
+  left: 20px; 
+
+ 
 }
 
 .contact
@@ -197,7 +226,9 @@ a
  {
    width: 320px;
    min-width: 320px;
-    padding: 10px 80px 20px 80px;
+   min-height: 1300px;
+  max-height: 1500px;
+  padding: 10px 80px 20px 80px;
 
  }
 

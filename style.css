@@ -1,22 +1,25 @@
 .background
 {   
+
+  margin:0px;
    padding: 10px 350px 20px 350px;
    background-color: #1e1e1e;
 
  }
 
-.logo
+/*.logo
 
 {
-   width: 35% ; 
+   width: % ; 
   padding: 10px;
-  margin: auto;
+  display: block; 
+  margin: 0 auto;  
   background-color: #1e1e1e;
-}
+}*/
 
 .menu
 {
-  width: 70% ; 
+  width: 80% ; 
   padding: 10px 10px 15px 10px;
   margin: auto;
   color: white;
@@ -30,6 +33,7 @@
 {
   position:relative;
   width: 95% ; 
+  text-align: center;
   padding: 30px 15px 40px 15px;
   margin: 0 auto;  
   background-color: #d2973b;
@@ -165,3 +169,41 @@ a
   color: #ffffff;
 }
 
+@media screen and (max-width: 1366px) { /* разрешение экрана */
+ .background
+ {
+  min-width: 640px;
+ }
+}
+
+@media screen and (max-width: 768px) { /* разрешение планшета */
+.background
+{
+  min-width: 320px;
+  min-height: 1300px;
+  max-height: 1500px;
+  padding: 10px 100px 20px 100px;
+}
+.contact
+{
+  font-size: 10px;
+  width: 100% ;
+}
+}
+  
+
+  @media screen and (max-width: 480px) { /* разрешение смартфона */
+ .background
+ {
+   width: 320px;
+   min-width: 320px;
+    padding: 10px 80px 20px 80px;
+
+ }
+
+ .contact
+{
+  font-size: 10px;
+}
+  
+  }

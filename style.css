@@ -176,11 +176,13 @@ position: relative;
   position: absolute;
   width: 110% ; 
   top: 350px;
-  left: 20px; 
-
- 
+  left: 20px;  
 }
 
+.sum
+{
+  float: right;
+}
 .contact
 {
   color: rgb(80, 80, 90);

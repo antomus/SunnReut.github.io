@@ -5,82 +5,72 @@
     <meta charset="utf-8">   
     <link rel="stylesheet" type="text/css" href="style.css"> 
    </head>
-  <body>
-    <div class="background">
-      <div class="logo" >
-        <img  src="images/3Bvp1prkTtGdFMgsCg6p_logo.jpg" style="display: block; margin: 0 auto;">
-      </div>
+   <body>
+    <div class="main_container">
+      <img id="logo" src="images/3Bvp1prkTtGdFMgsCg6p_logo.jpg">
       <div class="menu">
-        <a href="#"> <span  style="padding: 0px 5px 0px 5px" >HOME</span></a>
+        <a href="#"> <span>HOME</span></a>
         |
-        <a href="#"><span style="padding: 0px 5px 0px 5px">NEW PRODUCTS</span></a>
+        <a href="#"><span>NEW PRODUCTS</span></a>
         |
-        <a href="#"><span style="padding: 0px 5px 0px 5px">CATALOGUE</span></a>
+        <a href="#"><span>CATALOGUE</span></a>
         |
-        <a href="#"><span style="padding: 0px 5px 0px 5px">CONTACT US</span></a>
+        <a href="#"><span>CONTACT US</span></a>
       </div>
-      <div class="start">
-        <img  style="position:absolute; top:0px; left:0px; " src="images/JJxrFRyVRr20CJD3pOx9_top_left.jpg">
-        <img  style="position:absolute; top:0px; right:0px; " src="images/SNcoUN5kSfCDagqSBEZ4_top_right.jpg">
-        <div class="start_text">
-         <em  style="color: white; font-size: 60px;  font-family: "Georgia", serif" > Thank you</em>
-         <br> 
-         <span  style=" font-size: 20px; font-family:"Arial", sans-serif;"> FOR  YOUR  ORDER!</span>  
-        </div>
+      <div class="thank_you">
+        <img  style="float:left; " src="images/JJxrFRyVRr20CJD3pOx9_top_left.jpg">
+        <img  style="float:right; " src="images/SNcoUN5kSfCDagqSBEZ4_top_right.jpg">
+        <div class="thank_text">
+          <em id="thank_you"> Thank you</em>
+          <br> 
+          <span id="order"> FOR  YOUR  ORDER!</span>  
+       </div>
       </div>
-      <div class="data">  
-      <div class="title">      
-        <span style="padding: 0px 5px 0px 5px; font-size:20px; font-family:"Times New Roman"">Feel free to review your invoice below or click the button to view you account.</span>
-      </div>
-        
-        <div class="button">        
+      <div class="info">
+       <div id="title">      
+        <span>Feel free to review your invoice below or click the button to view you account.</span>
+      </div>        
+        <div id="button">        
          <a href="#"> <span > MY ACCOUNT</span></a>
-        </div>  
+        </div>
         <table class="table_address">
-        <tr><th style=" background-color: #DCDCDC ; color: #d2973b; padding: 10px 90px 10px 10px; ">SHIPPING ADDRESS:</th></tr>
-        <tr><td style=" background-color: #F5F5F5; padding: 10px 90px 10px 5px;"><span ><strong>Jane Doe</strong><br>123 Street | Victoria, BC <br> Canada <br>1(250)222-2232</span></td><tr>  
-        </table>
+        <tr><th class="head_table">SHIPPING ADDRESS:</th></tr>
+        <tr><td class="row_table"><span><strong>Jane Doe</strong><br>123 Street | Victoria, BC <br> Canada <br>1(250)222-2232</span></td></tr> 
+        </table>  
         <table class="table_order">
-        <tr><th style=" background-color: #DCDCDC ; color: #d2973b; padding: 10px 50px 10px 10px;">ORDER NUMBER:<span style="color: black; font-weight: normal;">A80SD99</span></th></tr> 
+        <tr><th class="head_table">ORDER NUMBER:<span style="color: black; font-weight: normal;">A80SD99</span></th></tr>
         </table>
         <table class="table_shipped"> 
-         <tr><th style=" background-color: #DCDCDC ; color: #d2973b; padding: 10px 90px 10px 10px; ">DATE SHIPPED:</th></tr>
-         <tr><td style=" background-color: #F5F5F5; padding: 10px 90px 10px 5px;">January 12, 2016</td></tr>
-         </tale>        
-        <table class="table1">
-          <tr><th class="table11">Item</th><th class="table11">Qty</th><th class="table11">Total</th></tr>          
-          <tr><td class="table11">Double Lapel Blazer</td><td class="table11">1</td><td class="table11">$89.90</td></tr>
-          <tr><td class="table11">Draped Neck Cardigan</td><td class="table11">1</td><td class="table11">$22.80</td></tr>          
+         <tr><th class="head_table">DATE SHIPPED:</th></tr>
+         <tr><td class="row_table">January 12, 2016</td></tr>
+         </tale>  
+         <table class="table1">
+          <tr><th id="table111">Item</th><th id="table112">Qty</th><th id="table113">Total</th></tr>          
+          <tr><td id="table121">Double Lapel Blazer</td><td id="table122">1</td><td id="table123">$89.90</td></tr>
+          <tr><td id="table131">Draped Neck Cardigan</td><td id="table132">1</td><td id="table133">$22.80</td></tr>          
+        </table> 
+        <table class="sum">
+          <tr><td class="sum_row1">Subtotal:</td><td class="sum_row1">$112.70</td></tr>
+          <tr><td class="sum_row1">Shipping:</td><td class="sum_row1">$10.00</td></tr>
+          <tr><td class="sum_row2">TOTAL:</td><td class="sum_row2">$122.70</td></tr>
         </table>
-        <hr noshade id="tab_line">
-        <hr noshade id="sum_line">  
-        <div class="sum">   
-        <span  style="position: absolute; padding: 15px;  top:465px;  left: 435px;">Subtotal:</span>
-        <span  style="position: absolute; padding: 15px;  top:465px;  left: 510px;">$112.70</span>
-        <span  style="position: absolute; padding: 15px;  top:495px;  left: 434px;">Shipping:</span>
-         <span  style="position: absolute; padding: 15px;  top:495px;  left: 510px;"> $10.00</span>
-        <span  style="position: absolute; padding: 15px;  top:525px;  left: 435px;"><strong>TOTAL:</strong> </span>
-        <span  style="position: absolute; padding: 15px;  top:525px;  left: 510px;"><strong>$122.70</strong></span>
       </div>
-      </div>
-      <div class="end">
-        <div class="follow_text">     
-         <span>Follow Us</span>
-       </div>
-       <div class="follow">
-         <a href="#"><img  style="padding:3px" src="images/PZeWpIm2TkSqtS6i07xE_ico_facebook.jpg"></a>
-         <a href="#"><img  style="padding:3px" src="images/hAIPhWl2SB2cL0Atc4lB_ico_twitter.jpg"></a>
-         <a href="#"><img  style="padding:3px" src="images/NrXUpqcRQwKnJKzLkqS1_ico_instagram.jpg"></a>
-         <a href="#"><img  style="padding:3px" src="images/VaewiS8gT5ClCCR9vAO1_ico_pinterest.jpg"></a>
-        </div>       
-       <img  style="position: absolute; bottom:0px; left: 0px" src="images/nK8bYazcQWGAQt8sAH2g_bot_left.jpg">
-       <img  style="position: absolute; bottom:0px; right: 0px" src="images/v9RanaDRM2FzjQNT9PwV_bot_right.jpg">
+      <div class="follow">
+        <span id="follow_text">Follow Us</span>
+        <div class="follow_icon">
+         <a href="#"><img class="icon" src="images/PZeWpIm2TkSqtS6i07xE_ico_facebook.jpg"></a>
+         <a href="#"><img class="icon" src="images/hAIPhWl2SB2cL0Atc4lB_ico_twitter.jpg"></a>
+         <a href="#"><img class="icon" src="images/NrXUpqcRQwKnJKzLkqS1_ico_instagram.jpg"></a>
+         <a href="#"><img class="icon" src="images/VaewiS8gT5ClCCR9vAO1_ico_pinterest.jpg"></a>
+        </div> 
+        <img  style="position: absolute; bottom:0px; left: 0px" src="images/nK8bYazcQWGAQt8sAH2g_bot_left.jpg">
+       <img  style="position: absolute; bottom:0px; right: 0px" src="images/v9RanaDRM2FzjQNT9PwV_bot_right.jpg">      
       </div>
       <div class="contact">
       <p > East Pixel Bld. 99, Creative City 9000, Republic of Design</p>
       <p >www.YourSiteName.com | email@yoursitename.com | Phone: +1 (655) 606-605</p>
       </div>
+      </div>
     </div>
-  </body>
-</html>
-
+   </body>
+   </html>

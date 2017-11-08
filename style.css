@@ -1,196 +1,77 @@
-.background
-{   
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-  margin:0px;
-   padding: 10px 350px 20px 350px;
-   background-color: #1e1e1e;
 
- }
 
-/*.logo
+/*----------------------------------------------------------------------------------------------*/
 
+body
 {
-   width: % ; 
-  padding: 10px;
-  display: block; 
-  margin: 0 auto;  
-  background-color: #1e1e1e;
-}*/
+   background-color: #1e1e1e;
+}
+
+.main_container
+{
+  width:640px;
+  margin:auto;
+}
+
+#logo
+{
+  padding:10px;
+   display: block;
+    margin: 0 auto;"
+}
 
 .menu
 {
-  width: 80% ; 
   padding: 10px 10px 15px 10px;
-  margin: auto;
-  color: white;
+  margin: auto;  
+  color: #ffffff;
   background-color:#1e1e1e;
   font-size: 12px; 
-  font-family:"Arial", sans-serif; 
-   text-align: center;
-}
-
-.start
-{
-  position:relative;
-  width: 95% ; 
-  text-align: center;
-  padding: 30px 15px 40px 15px;
-  margin: 0 auto;  
-  background-color: #d2973b;
-}
-
-.start_text
-{
- /*position: relative;  */
-  text-align: center; 
-
-}
-
-.data
-
-{
-  position:relative;
-  width: 93% ; 
-  padding: 30px 21px 200px 21px;
-  margin: auto;   
-  background-color: #ffffff;   
-}
-
-
-.title
-{
-  width: 90% ; 
-  padding: 10px 10px 15px 10px;
-  margin: auto;
-  text-align: center;
-}
-
-.button
-{
-  background-color: #d2973b;
-  color: white;  
-  padding: 10px 35px  10px 35px;
-  width: 20% ;   
-  margin: auto;
-  left:220px;
-  text-align: center;
-}
-.end
-{
-  position:relative;
-  width: 95% ; 
-  padding: 30px 15px 80px 15px;
-  margin: auto;
-  background-color: #d2973b;
-
-}
-
-.follow_text
-{
-  
-  /*position: relative;*/
-  text-align: center;
-  font-size: 20px; 
- font-family:"Georgia", serif;
-}
-
-.follow
-{
-  position:relative; 
-  width: 30%;
-  margin-right: 35%;
-  margin-left: 35%;     
-  top:10px;
-  text-align: center;
-
-}
-
-.table11
-  {
-   padding: 7px;
-   padding-right: 130px;
-   text-align: left;
-
-  }
-
-
-#tab_line
-{
-  
-  position: absolute;
-  top: 375px;
-  left: 15px;  
-  border-size: 7;
-  width: 90%;
-  border-color: #F5F5F5;
-}
- 
-#sum_line
-{
-  border-color: #d2973b;
-  position: absolute;
-  top: 455px;
-  left: 15px;  
-  width: 90%;  
-}
- /* .title_t
-{
-   background-color: #DCDCDC  ; 
-   color: #d2973b;
-   position: absolute;
-  
-}
-.text
-{
-  background-color: #F5F5F5;
-  position: absolute;
-  
-}*/
-
-.table_address
-{
-  position: relative;
-  width: 45% ; 
-  top: 45px;
-   
-}
- .table_order
- {
-  position: relative;
-  width: 45% ; 
-  top: -93px;
-  left:300px;
- }
-
-.table_shipped
-{
-position: relative;
-  width: 45% ; 
-  top: -82px;
-  left:300px;
-  text-align: left;
-}
-
-.table1
-{
-  position: absolute;
-  width: 110% ; 
-  top: 350px;
-  left: 20px;  
-}
-
-.sum
-{
-  float: right;
-}
-.contact
-{
-  color: rgb(80, 80, 90);
-  position:relative;
-  top:0px;
-  width: 90% ; 
-  padding: 10px 10px 15px 10px;
-  margin: auto;
+  font-family:'Arial', sans-serif; 
   text-align: center;
 }
 
@@ -198,45 +79,263 @@ a
 {
   text-decoration:none;
   color: #ffffff;
+  padding: 0px 5px 0px 5px
 }
 
-@media screen and (max-width: 1366px) { /* разрешение экрана */
- .background
+.thank_you
+{
+  width: 100% ; 
+  text-align: center;
+  padding: 0px 0px 40px 0px;
+  margin: 0 auto;  
+  background-color: #d2973b;
+}
+
+.thank_text
+{
+  padding:40px 0px 5px 0px;
+}
+
+#thank_you
+{
+  color:  #ffffff; 
+  font-size: 60px; 
+  font-family: 'Georgia', serif;
+
+}
+
+#order
+{
+  color:#1e1e1e;
+  font-size: 20px;
+  font-family:'Arial', sans-serif;
+}
+
+.info
+{
+  position: relative;
+  width: 100% ; 
+  padding: 30px 0px 120px 0px;
+  margin: auto;   
+  background-color: #ffffff; 
+  text-align: center; 
+}
+
+#title
+{  
+  font-size:20px;
+  font-family:'Times New Roman';
+  padding:20px;
+}
+
+#button
+{
+  background-color: #d2973b;
+  color: white;  
+  padding: 10px 35px  10px 35px;
+  width: 20% ;   
+  margin: auto;  
+  text-align: center;
+}
+
+.head_table
+{
+  background-color: #DCDCDC ;
+  color: #d2973b;
+  font-weight: bold;
+ /* width:50%;
+  margin:20px 0px 0px 20px;*/
+  padding: 10px 60px 10px 10px;
+  /*float:left;
+  text-align: left;*/
+}
+
+.row_table
+{
+  background-color: #F5F5F5;
+  padding: 10px 90px 10px 5px;
+  /*width:50%;
+  margin:0px 0px 20px 20px;*/
+  /*float:left;
+  text-align: left;*/
+
+}
+
+.table_address
+{
+  position: relative;
+  width:45%;
+  margin:20px 0px 30px 20px;
+  float:left;
+  text-align: left;
+}
+
+.table_order
+{
+  position: relative;
+  width:45%;
+  margin:20px 0px 0px 20px;
+  float: left;
+  text-align: left;
+}
+
+.table_shipped
+{
+  position: relative;
+  width:45%;
+  margin:12px 0px 30px 20px;
+  float: left;
+  text-align: left;
+}
+
+.table1
+{
+  position: relative;
+  width: 90% ; 
+  margin: 40px 20px 10px 20px;  
+}
+
+#table111
+  {
+    padding: 10px;
+   padding-right: 135px;
+   text-align: left;
+   font-weight: bold;
+   border-bottom: 1px solid;
+    border-color: #F5F5F5;
+    border-width: 90%;
+  }
+
+  #table112
+  {
+    padding: 10px;
+   padding-right: 135px;
+   text-align: left;
+   font-weight: bold;
+   border-bottom: 1px solid;
+    border-color: #F5F5F5;
+    border-width: 90%;
+  }
+
+  #table113
+  {
+    padding: 10px; 
+   text-align: left;
+   font-weight: bold;
+   border-bottom: 1px solid;
+    border-color: #F5F5F5;
+    border-width: 90%;
+  }
+
+#table121
+  {
+   padding: 10px;
+   padding-right: 135px;
+   text-align:left;
+
+  }
+
+  #table122
+  {
+   padding: 10px;
+   padding-right: 135px;
+   text-align:left;
+     }
+
+     #table123
+  {
+   padding: 10px;
+   /*padding-right: 120px;*/
+   text-align:left;
+
+  }  
+
+  #table131
+  {
+   padding: 10px;
+   padding-right: 135px;
+   text-align:left;
+   border-bottom: 1px solid;
+    border-color: #d2973b;
+    border-width: 90%;
+  }
+
+  #table132
+  {
+   padding: 10px;
+   padding-right: 135px;
+   text-align:left;
+   border-bottom: 1px solid;
+    border-color: #d2973b;
+    border-width: 90%;
+  }
+
+  #table133
+  {
+   padding: 10px;
+   /*padding-right: 120px;*/
+   text-align:left;
+   border-bottom: 1px solid;
+    border-color: #d2973b;
+    border-width: 90%;
+  }
+
+.sum
+{
+  position: relative;
+  width:35%;
+  margin:5px 0px 10px 0px;
+  float:right;
+  text-align: left;
+}
+
+.sum_row1
+{
+  padding: 5px;
+}
+
+.sum_row2
+{
+  padding: 5px;
+  font-weight: bold;
+
+}
+
+.follow
+{
+  position: relative;
+  width: 100% ; 
+  text-align: center;
+  padding: 30px 0px 40px 0px;
+  margin: 0 auto;  
+  background-color: #d2973b;
+}
+ #follow_text
  {
-  min-width: 640px;
+
+  font-size: 20px; 
+ font-family:'Georgia', serif;
  }
-}
 
-@media screen and (max-width: 768px) { /* разрешение планшета */
-.background
-{
-  min-width: 320px;
-  min-height: 1300px;
-  max-height: 1500px;
-  padding: 10px 100px 20px 100px;
-}
-.contact
-{
-  font-size: 10px;
-  width: 100% ;
-}
-}
-  
-
-  @media screen and (max-width: 480px) { /* разрешение смартфона */
- .background
+ .follow_icon
  {
-   width: 320px;
-   min-width: 320px;
-   min-height: 1300px;
-  max-height: 1500px;
-  padding: 10px 80px 20px 80px;
+   position:relative; 
+  width: 100%;  
+  text-align: center;
+ }
 
+ .icon
+ {
+  padding:10px 3px 0px 0px;
  }
 
  .contact
 {
-  font-size: 10px;
-}
   
-  }
+  color: rgb(80, 80, 90);
+  position:relative;  
+  width: 100% ; 
+  padding: 10px 10px 15px 10px;
+  margin: auto;
+  text-align: center;
+}

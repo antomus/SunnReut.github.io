@@ -51,6 +51,30 @@ body
    background-color: #1e1e1e;
 }
 
+#decor_top_left
+{
+  float:left; 
+}
+
+#decor_top_right
+{
+  float:right;
+}
+
+#decor_bot_left
+{
+  position: absolute;
+  bottom:0px;
+  left: 0px
+}
+
+#decor_bot_right
+{
+  position: absolute; 
+  bottom:0px; 
+  right: 0px
+}
+
 .main_container
 {
   width:640px;
@@ -96,24 +120,22 @@ a
   padding:40px 0px 5px 0px;
 }
 
-#thank_you
+#id_thank
 {
   color:  #ffffff; 
   font-size: 60px; 
   font-family: 'Georgia', serif;
-
 }
 
-#order
+#id_order
 {
   color:#1e1e1e;
   font-size: 20px;
   font-family:'Arial', sans-serif;
-}
+  }
 
 .info
-{
-  position: relative;
+{  
   width: 100% ; 
   padding: 30px 0px 120px 0px;
   margin: auto;   
@@ -145,52 +167,62 @@ a
   font-weight: bold;
  /* width:50%;
   margin:20px 0px 0px 20px;*/
-  padding: 10px 60px 10px 10px;
-  /*float:left;
-  text-align: left;*/
+  padding: 10px 60px 10px 15px;
+  /*float:left;*/
+  text-align: left;
 }
 
 .row_table
 {
   background-color: #F5F5F5;
-  padding: 10px 90px 10px 5px;
+  padding: 10px 90px 10px 15px;
   /*width:50%;
   margin:0px 0px 20px 20px;*/
-  /*float:left;
-  text-align: left;*/
-
+  /*float:left;*/
+  text-align: left;
 }
 
-.table_address
+#name_client
 {
-  position: relative;
+font-weight: bold;
+}
+
+#ord_number
+{
+  color: black; 
+  font-weight: normal;
+}
+
+#table_address
+{
+  
   width:45%;
   margin:20px 0px 30px 20px;
   float:left;
   text-align: left;
 }
 
-.table_order
+#table_order
 {
-  position: relative;
+  
   width:45%;
   margin:20px 0px 0px 20px;
   float: left;
   text-align: left;
 }
 
-.table_shipped
+#table_shipped
 {
-  position: relative;
+  
   width:45%;
   margin:12px 0px 30px 20px;
   float: left;
   text-align: left;
 }
 
-.table1
+#table1
 {
-  position: relative;
+  /*position: relative;*/
   width: 90% ; 
   margin: 40px 20px 10px 20px;  
 }
@@ -280,9 +312,9 @@ a
     border-width: 90%;
   }
 
-.sum
+#sum
 {
-  position: relative;
+  
   width:35%;
   margin:5px 0px 10px 0px;
   float:right;
@@ -301,7 +333,7 @@ a
 
 }
 
-.follow
+#follow
 {
   position: relative;
   width: 100% ; 
@@ -317,9 +349,9 @@ a
  font-family:'Georgia', serif;
  }
 
- .follow_icon
+ #follow_icon
  {
-   position:relative; 
+  
   width: 100%;  
   text-align: center;
  }
@@ -329,11 +361,11 @@ a
   padding:10px 3px 0px 0px;
  }
 
- .contact
+ #contact
 {
   
   color: rgb(80, 80, 90);
-  position:relative;  
+  
   width: 100% ; 
   padding: 10px 10px 15px 10px;
   margin: auto;

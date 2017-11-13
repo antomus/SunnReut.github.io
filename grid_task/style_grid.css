@@ -1,0 +1,135 @@
+.main_container
+{
+  /*width:900px;
+  margin:auto;*/
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  /*grid-template-rows: minmax(150px, auto) minmax(200px, auto) minmax(150px,auto);*/
+ /* grid-template-rows: 150px 1fr 150px;*/
+ /*grid-gap: 10px;*/
+  grid-template-rows: 200px 300px 200px;
+}
+
+#first
+{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+}
+
+
+#second
+{
+  grid-column-start:2;
+  grid-column-end:5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height:490px;
+  width:790px;
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+}
+ 
+ #third
+ {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 250px;
+  width:200px;
+  margin: 0px 10px 0px 30px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+
+ }
+
+ #fourth
+ {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }
+
+ #fifth
+ {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }
+
+ #sixth
+ {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }
+
+ #seventh
+ {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }
+
+ #eighth
+ {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid #0000004d;
+ 
+ }
+
+ #nineth
+ {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  height: 250px;
+  width:200px;
+  margin: 0px 10px 0px 30px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }
+
+ #tenth
+ {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  height: 140px;
+  width: 260px;  
+  margin: 3px;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+  border: 2px solid rgba(0,0,0,0.5);
+ 
+ }

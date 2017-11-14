@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+    <title>Popup</title>
+    <meta charset="utf-8">        
+    <link rel="stylesheet" type="text/css" href="style_fullpopup.css" />
+   </head>
+    <body>
+      <div id="wrapper1">
+      <a class="show-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='block';document.getElementById('fade').style.display='block'"><span id="title-text">Leave a message</span><!-- <span id="open-icon" class="icon-maximize">::before</span> --></a>
+      </div> 
+     <div id="wrapper2">      
+      <table id="content" cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr id="title-container"><td>           
+           <a class="close-btn" href="javascript:void(0)" onclick = "document.getElementById('envelope').style.display='none';document.getElementById('fade').style.display='none'"><span id="title-text">Leave a message</span><!-- <span id="minimize" class="title-button" data-title="Minimize window"><span class="icon-minimize" style="left:50px; color:#ffffff">::before</span> --></span></a>
+          </td>
+        </tr>
+        <tr id="body-container">
+          <td> 
+           <div id="main_body" >
+              <!-- <div class="top-shadow"></div> --> 
+               
+               <div class="form">
+                <form>
+                  <div class="form_header" id="container_7">
+                    <p>Our agents are not available right now. Please leave a message and we'll get back to you.</p>
+                  </div>
+                  <div id="container_3">
+                    <p>
+                      <label for="name">Your name: <span class="asterisk">*</span></label>
+                      <input type="text" name="name" id="name" class="text">
+                    </p>
+                  </div>
+                  <div id="container_4">
+                    <p>
+                      <label for="email">E-mail: <span class="asterisk">*</span></label>
+                      <input type="text" name="email" id="email" class="text">
+                    </p>
+                  </div>
+                  <div id="container_5">
+                    <p>
+                      <label for="subject">Subject: <span class="asterisk">*</span></label>
+                      <input type="text" name="subject" id="subject" class="text">
+                    </p>
+                  </div>
+                  <div id="container_6">
+                    <p>
+                      <label for="container_6_4">Message: <span class="asterisk">*</span></label>
+                      <textarea name="container_6_4" id="container_6_4"></textarea>
+                    </p>
+                  </div>
+                  <div id="container_8" class="submit">
+                    <p>
+                      <input type="submit" value="Leave a message"><span class="ajax-loader" style="visibility: hidden;"></span>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <!--  <div id="notification" class="error" style="display: block;">
+      <div id="notification-content">Please fill in required fields.</div>  -->   <!-- Ошибка если не заполнили поля.Но надо обработать, чтоб  появлялось когда надо -->
+    </div>
+        </tbody>
+      </table>         
+     </div>     
+    </body>
+</html>

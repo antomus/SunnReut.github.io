@@ -1,0 +1,202 @@
+/*body {
+  display: block;
+  zoom: 1;
+  visibility: visible;
+  font-family: Lato,sans-serif!important;
+  font: 12px/16px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;   
+  box-sizing: border-box;
+}*/
+
+#main_container
+{
+   width:640px;
+  margin:auto;
+}
+
+a {
+   text-decoration: none;
+   cursor: auto;
+}
+
+#css-container {
+  display: none;
+}
+
+.outline {    
+  padding: 15px 15px 0;
+  box-shadow: none;
+}
+
+#wrapper {
+  width: 270px;
+  position: absolute;
+   display: block;
+  zoom: 1;
+  visibility: visible;
+  font-family: Lato,sans-serif!important;
+  /*font: 12px/16px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;   */
+  box-sizing: border-box;    
+}
+
+table#content {
+  font-family: Lato,sans-serif!important;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#content {
+  padding: 0;
+  background: #fff;
+  border-radius: 4px 4px 0 0!important;
+  box-shadow: 0 2px 10px rgba(0,0,0,.1)!important;
+  /*background-clip: padding-box!important;*/
+}
+
+#content {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#title-container {
+  background: #026678;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+}
+
+#title {
+  color: #fff;
+  font-weight: 400;
+  padding: 0 7px 0 8px;
+  display: block;
+  background: #026678;
+}
+
+
+#close-chat {
+  margin-top: -1px;
+  margin-right: 1px;
+  height: 30px;
+  margin-left: 0;
+  padding: 0 4px;
+  display: none;
+}
+
+#minimize {
+  margin-right: 3px;
+  padding-bottom: 0;
+  line-height: 25px;
+  height: 25px;
+}
+
+.title-button {
+  display: block;
+  cursor: pointer;
+  float: right;
+  background-repeat: no-repeat;
+}
+
+.icon-minimize {
+    color: #fff;
+    max-height: 2px;
+    overflow: hidden;
+    width: 11px;
+    display: inline-block;
+    font-size: 2px;
+    font-family: 'livechat-minimal' !important;
+    line-height: 1;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;    
+}
+
+#title-text {
+  margin-left: 3px;
+  font-size: 10px;
+  letter-spacing: .13em;
+  text-shadow: none;
+  overflow: hidden;
+  white-space: nowrap;
+ /* text-overflow: ellipsis;*/
+  display: block;
+}
+
+/*#operators {
+  display: none!important;
+}
+*/
+
+#body {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  /*background-clip: padding-box;*/
+}
+
+.top-shadow {
+  display: none;
+   border-top: 1px solid #f8f8f8;
+}
+
+#body-inner {
+  overflow: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*word-wrap: break-word;
+  word-break: break-word;*/
+  background: #fff;
+  color: #333;
+  /*background-clip: padding-box;*/
+}
+
+.form {
+  padding: 5px 0;
+  /*box-sizing: border-box;*/
+}
+
+p
+{
+  line-height: 1.25em;
+}
+
+#content .form div p, #content .integration, #content p, #typing-indicator {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#body label {
+  display: block;
+  font-weight: 700;
+}
+
+label {
+    cursor: default;
+}
+
+.asterisk {
+    color: red;
+}
+
+.submit input {
+  margin: 0 auto;
+  display: block;
+  background: #000;
+  color: #FFF;
+  border: 0;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  padding: 7px 13px;
+  cursor: pointer;
+}
+
+.icon-minimize:before {
+    content: "\e906";
+}
